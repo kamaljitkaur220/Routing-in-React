@@ -99,3 +99,6 @@ button{
     transform: rotate(360deg);
   }
 }
+.jeopardy{
+  font-weight:bold;
+}

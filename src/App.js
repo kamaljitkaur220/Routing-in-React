@@ -5,7 +5,9 @@ import Welcome from "./components/welcome/Welcome";
 import Clock from "./components/welcome/clock/Clock";
 import Contact from "./components/contact/Contact";
 import Navigation from "./components/navigation/Navigation";
+import Jeopardy from "./components/Jeopardy/Jeopardy";
 import PageError from "./components/pageerror/PageError";
+
 
 class App extends Component {
   render() {
@@ -26,6 +28,7 @@ class App extends Component {
           />
           <Route path="/clock" component={Clock} />
           <Route path="/contact" component={Contact} />
+          <Route path="/jeopardy" component={Jeopardy}/>
           <Route>
             <PageError/>
            
